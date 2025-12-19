@@ -16,7 +16,7 @@ let classifier;
 let label = "listening";
 
 // Teachable Machine model URL:
-let soundModelURL = 'https://teachablemachine.withgoogle.com/models/3OiMBp6ba9/model.json';
+let soundModelURL = 'https://zz10100069-ux.github.io/audio11232613-/model.json';
 
 
 function preload() {
@@ -50,4 +50,5 @@ function gotResult(error, results) {
   // The results are in an array ordered by confidence.
   // console.log(results[0]);
   label = results[0].label;
+
 }
